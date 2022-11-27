@@ -7,8 +7,12 @@
 Console.WriteLine("Hello, Camrad!");
 Console.WriteLine("Введите целое число на проверку");
 int num=Convert.ToInt32(Console.ReadLine());
-
-if (num%2)
+if (num%2==0)
+{
     Console.WriteLine("Число "+num+ " является четным");
-else 
+}
+else
+{
     Console.WriteLine("Число "+num+ " нечетное");
+} 
+    
